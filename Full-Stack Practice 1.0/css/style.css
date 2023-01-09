@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(39, 39, 37);
+    color: antiquewhite;
+    font-size: 20px;
+}
+ 
+.hero {
+    background-color: aliceblue;
+    color: aquamarine;
+}
+
+h1 {
+    color: antiquewhite;
+}
+
+div {
+    background-color: black;
+    color: aquamarine;
+    font-family: 'Franklin Gothic Regular';
+}
+
+span {
+    background-color: rgb(51, 117, 143);
+}
+
+.nav {
+    background-color: antiquewhite;
+    color: black;
+}
+
+#item-one {
+    color: blue;
+}
+
+/* the CSS box mode */
+
+.box-model {
+    color: black;
+    width: 300px;
+    margin: 50px 100px;
+        /* top bottom, left right */
+    padding: 50px 100px 100px 25px;
+        /* top right bottom left */
+    border-width: 5px;
+    border-color: blueviolet;
+    border-style: dashed;
+    border-left-width: 10px;
+    border-left-color: red;
+    border-left-style: solid;
+}
+
+.background-image {
+    background-image: url(https://cdn.shopify.com/s/files/1/0061/5196/2695/products/IMG_5102_720x.jpg?v=1603727432);
+    background-size: cover;
+    background-position: center;
+    background-color: aliceblue;
+}
+
+.text-styling {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.25;
+    text-align: left;
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+
+/* This is the exact order you need to use for different states */
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+/* 2 SELECTORS IN ONE */
+a:hover, a:focus {
+    color: black;
+}
+
+a:active {
+    font-size: 18px;
+    color: black;
+}
+
+/* this is how you combine classes and selectors */
+.body-text p {
+    color: rgb(223, 2, 2)
+}
+
+/* This will overrite the "A" selector because it's more specific, !IMPORTANT will overrite everything. */
+.body-text a:hover {
+    color: blue !important;
+}
+
+ul {
+    list-style-type: square;
+    background-color: pink;
+    padding: 30px;
+}
+
+ul li {
+    background-color: royalblue;
+    margin: 10px;
+    list-style-position: inside;
+}
